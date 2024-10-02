@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Formulario de LinkedIn</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class=" formulario">
+        <h1>Formulario para Perfil</h1>
+        <form action="submit.php" method="post">
+            <h2>Datos Generales</h2>
+            <div class="flex-field">
+                <div>
+                  <label for="nombre" class="field">Nombre y Apellidos</label>
+                  <input type="text" name="nombre" class="text-input">
+                </div>
+            </div>
+            <div class="flex-field">
+                <div>
+                  <label for="nacimiento"  class="field">Fecha de Nacimiento</label>
+                  <input type="date" name="nacimiento" class="text-input">
+                </div>
+            </div>
+    
+            <div class="flex-field">
+                <div>
+                  <label for="telefono"  class="field">Teléfono</label>
+                  <input type="text" name="telefono" class="text-input">
+                </div>
+            </div>
+              
+            <div class="flex-field">
+                <div>
+                  <label for="email"  class="field">Correo electrónico</label>
+                  <input type="email" name="email" class="text-input">
+                </div>
+                
+            </div>
+            <div class= "flex-field">
+                <div>
+                  <label for="nacionalidad"  class="field">Nacionalidad</label>
+                  <select name="nacionalidad" id="" class="text-input">
+                    <option value="Perú">Perú</option>
+                    <option value="Chile">Chile</option>
+                    <option value="Bolivia">Bolivia</option>
+                    <option value="Brasil">Brasil</option>
+                    <option value="Ecuador" >Ecuador</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Argentina">Mexico</option>
+                    <option value="Argentina">Venezuela</option>
+                    <option value="Argentina">España</option>
+                  </select>
+                </div>
+            </div> 
+            
+        
+            <h2>Experiencia Laboral</h2>
+            <div class="flex-field">
+                <div>
+                    <label for="empresa"  class="field">Empresa</label>
+                    <input type="text" name="empresa" class="text-input">
+                </div>
+            </div>
+            
+            <div class="flex-field">
+                <div>
+                    <label for="puesto"  class="field">Puesto</label>
+                    <input type="text" name="puesto" class="text-input">
+                </div>
+            </div>
+            <div class="flex-field">
+                <div>
+                    <label for="fecha_inicio"  class="field">Fecha Inicio:</label>
+                    <input type="date" name="fecha_inicio" class="text-input">
+                  </div>
+            </div>
+            <div class="flex-field">
+                <div>
+                    <label for="fecha_fin"  class="field">Fecha Fin:</label>
+                    <input type="date" name="fecha_fin" class="text-input">
+                  </div>
+            
+            </div>
+            <div class="flex-field">
+                <div>
+                    <label for="ubicacion"  class="field">Ubicación</label>
+                    <input type="text" name="ubicacion" class="text-input">
+                </div>
+            </div>
+            <div class="flex-field">
+                <div>
+                    <label for="tipo_de_ubicacion"  class="field">Tipo de Ubicacion</label>
+                    <select name="tipo_de_ubicacion" id="" class="text-input">
+                        <option value="Presencial">Presencial</option>
+                        <option value="Hídrido">Híbrido</option>
+                        <option value="Remoto">Remoto</option>
+                    </select>
+                </div>
+            </div>
+            <div class="flex-field">
+                <div>
+                    <label  class="field">Descripción</label>
+                    <textarea rows="10" cols="50" name="perfil"></textarea>
+                </div>
+            </div>
+        
+            
+            <h2>Formación</h2>
+            <div class="flex-field">
+                <div>
+                    <label for="institucion"  class="field">Institución</label>
+                    <input type="text" name="institucion" class="text-input">
+                </div>
+            </div>
+    
+            <div class="flex-field">
+                <div>
+                    <label for="disciplina_academica"  class="field">Disciplina Academica:</label>
+                    <input type="text" name="disciplina_academica" class="text-input">
+                </div>
+                
+            </div>
+            
+            <h2>Idiomas</h2>
+            <div class="flex-field">
+                <div>
+                    <label for="idioma"  class="field">Idioma:</label>
+                    <input type="text" name="idioma" class="text-input">
+                </div>
+            </div>
+            <div class="flex-field">
+                <div>
+                    <label for="nivel_de_idioma"  class="field">Nivel</label>
+                    <select name="nivel_de_idioma" id="" class="text-input">
+                        <option value="Basico">Basico</option>
+                        <option value="Intermedio">Intermedio</option>
+                        <option value="Avanzado">Avanzado</option>
+                        <option value="Nativo">Nativo</option>
+                    </select>
+                </div>
+            </div>
+            
+            <h2>Aptitudes</h2>
+            <div class="flex-field">
+                <div>
+                    <label for="aptitud"  class="field">Aptitud:</label>
+                    <input type="text" name="aptitud" class="text-input">
+                </div>
+                
+            </div>
+            
+            <input type="submit" value="Guardar">
+        </form>
+    </div>
+</body>
+</html>

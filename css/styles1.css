@@ -1,0 +1,99 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fce4ec; /* Fondo claro */
+    margin: 0;
+    padding: 0;
+}
+
+.perfil {
+    background-color: #ffffff;
+    width: 60%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    font-family: 'Verdana', sans-serif;
+    color: #e91e63; /* Color primario rosa */
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    border-bottom: 2px solid #e91e63; /* Color primario rosa */
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+p {
+    font-size: 16px;
+    color: #424242; /* Texto gris oscuro */
+    line-height: 1.5;
+}
+
+strong {
+    font-weight: bold;
+    color: #000;
+}
+
+/* Experience, Education, Languages, Skills Section */
+.experiencia, .formacion, .idiomas, .aptitudes {
+    margin-bottom: 20px;
+}
+
+.experiencia p, .formacion p, .idiomas p, .aptitudes p {
+    margin: 8px 0;
+}
+
+.experiencia, .formacion, .idiomas, .aptitudes {
+    border-left: 3px solid #ff5722; /* Bordes naranjas */
+    padding-left: 15px;
+}
+
+/* Profile header */
+.perfil h1 {
+    text-align: center;
+}
+
+.perfil p {
+    text-align: center;
+    margin: 5px 0;
+}
+
+.perfil img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #9c27b0; /* Color morado */
+}
+
+.perfil p strong {
+    font-weight: bold;
+    color: #555;
+}
+
+/* Contact Information */
+.perfil p {
+    font-size: 15px;
+}
+
+.perfil p strong {
+    color: #e91e63; /* Color primario rosa */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .perfil {
+        width: 90%;
+        padding: 15px;
+    }
+}

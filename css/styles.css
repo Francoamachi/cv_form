@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f4f4f4; 
+  .formulario {
+    max-width: 45%;
+    background-color: #5fa5b6;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  .formulario h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  .formulario > form {
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .formulario .field {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-top: 25px;
+    color: #555;
+  }
+  .formulario .text-input, select, textarea {
+    height: 40px;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  .flex-field {
+    display: flex;
+    gap: 10px;
+  }
+  .flex-field div {
+    width: 100%;
+  }
+  .formulario .text-input:focus, select:focus, textarea:focus {
+    border-color: #000000;
+  }
+  textarea {
+    height: 150px;
+  }
+  input[type="radio"], input[type="checkbox"] {
+    margin-right: 5px;
+  }
+
+  
+  li {
+    margin: 10px 0px;
+  }
+  header {
+    display: flex;
+    background-color: #585858;
+    padding: 30px 0px;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  section {
+    display: flex;
+  }
+  hr {
+    display: block;
+    border: 0;
+    border-top: 2px solid #000;
+    margin: 0 0;
+    padding: 0;
+    width: 200px;
+  }
+  
+  article hr {
+    display: block;
+    border: 0;
+    border-top: 2px solid #000;
+    margin: 0 0;
+    padding: 0;
+    width: 100%;
+  }
+  nav {
+    flex: 1;
+    background: #d4d4d4;
+    padding: 30px 40px;
+    border-radius: 0 0 8px 8px; 
+  }
+  nav ul {
+    padding: 0px 20px;
+  }
+
+  h3 {
+    margin: 3px 0px;
+    font-size: 25px; 
+  }
+  h4 {
+    margin: 20px 0 8px 0;
+    font-size: 22px;
+  }
+ 
+  article {
+    flex: 3;
+    background-color: #fcfcfc;
+    padding: 30px 40px;
+    border-radius: 0 0 8px 8px;
+  }
+
+  @media (min-width: 1600px) {
+    article {
+      min-width: 600px;
+    }
+  }
+  input[type="submit"] {
+    background-color: #0073b1;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+ input[type="submit"]:hover {
+    background-color: #005c8c;
+ }
+  }
